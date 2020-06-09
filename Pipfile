@@ -6,6 +6,7 @@ verify_ssl = true
 [dev-packages]
 pytest = "*"
 serbia-zip-codes = {editable = true,path = "."}
+autopep8 = "*"
 
 [packages]
 
