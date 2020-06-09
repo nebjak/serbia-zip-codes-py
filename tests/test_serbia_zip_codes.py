@@ -1,5 +1,20 @@
 import serbia_zip_codes
 
-def test_find_by_city():
+
+def test_find_by_city_full_name():
     result = serbia_zip_codes.find_by_city("Loznica")
-    assert result['city'] == "Loznica"
+    assert len(result) == 1
+
+
+def test_find_by_city_part_name():
+    result = serbia_zip_codes.find_by_city("Lozni")
+    assert len(result) == 1
+
+
+def test_find_by_city_ignore_case():
+    result = serbia_zip_codes.find_by_city("loznica")
+    assert len(result) == 1
+
+def test_find_by_city_no_result():
+    result = serbia_zip_codes.find_by_city("qwerty")
+    assert len(result) == 0

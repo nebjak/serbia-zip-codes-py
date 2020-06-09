@@ -11,16 +11,16 @@ pip install serbia-zip-codes
 ## Usage
 
 ```python
-from serbia_zip_codes import SerbiaZipCodes
+import serbia_zip_codes
 ```
 
 Search city by city:
 
 ```python
-result = SerbiaZipCodes.find_by_city("loznica")
+result = result = serbia_zip_codes.find_by_city("Loznica")
 print(result)
-# >>> [ { city: 'Loznica', zip_code: '15300' } ]
-print(result[0].zip_code)
+# >>> [{'city': 'Loznica', 'zip_code': '15300'}]
+print(result[0]['zip_code'])
 # >>> 15300
 ```
 
