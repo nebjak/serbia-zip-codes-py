@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="serbia_zip_codes",
-    version="0.0.1",
+    version="1.0.0",
     author="Nebojsa Jakovljevic",
     author_email="nebojsa@nebjak.net",
     description="Easy access to Serbia zip codes. You can search zip code by city, or city by zip code",
