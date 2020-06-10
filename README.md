@@ -2,6 +2,8 @@
 
 Easy access to Serbia zip codes. You can search zip code by city, or city by zip code.
 
+[![Build Status](https://travis-ci.org/nebjak/serbia-zip-codes-py.svg?branch=master)](https://travis-ci.org/nebjak/serbia-zip-codes-py)
+
 ## Installation
 
 ```
