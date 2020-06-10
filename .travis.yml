@@ -4,5 +4,7 @@ python:
   - "3.7"
   - "3.8"
   - "nightly"
+install:
+  - pipenv install
 script:
   - pytest
